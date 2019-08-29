@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box
+}
+.Plane {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr 5fr 5fr 5fr 10fr 5fr 5fr 5fr 4fr;
+}
+
+.Cell {
+    border: 1px solid grey;
+    height: 14vh;
+}
+
+.seat {
+    background-color: lightblue;
+}
+
+.entrance {
+    background-color: lightskyblue;
+}
+
+.aisle {
+    background-color: paleturquoise;
+}
+
+.wall {
+    background-color: linen;
+}
+
+.player {
+    border: 5px solid pink;
+    background-color: #f16b6b6b
+}
